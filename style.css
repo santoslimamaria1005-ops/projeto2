@@ -1,0 +1,98 @@
+/* ==========================================
+   RESET E CONFIGURAÇÕES GERAIS
+   ========================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f4;
+    color: #2e3d29;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* ==========================================
+   CABEÇALHO (HEADER)
+   ========================================== */
+header {
+    background-color: #1b4332;
+    color: #ffffff;
+    padding: 25px 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+/* ==========================================
+   CONTEÚDO PRINCIPAL (MAIN / CONTAINER)
+   ========================================== */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.container h2 {
+    color: #1b4332;
+    margin-bottom: 15px;
+}
+
+.container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    color: #4a5d43;
+}
+
+/* Imagem decorativa */
+.banner-img {
+    width: 100%;
+    max-height: 380px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+/* ==========================================
+   BOTÃO DE NAVEGAÇÃO
+   ========================================== */
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #2d6a4f;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #40916c;
+    transform: translateY(-2px);
+}
+
+/* ==========================================
+   RODAPÉ (FOOTER)
+   ========================================== */
+footer {
+    margin-top: auto;
+    background-color: #1b4332;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+}
