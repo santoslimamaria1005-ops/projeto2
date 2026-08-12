@@ -3,113 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agro Forte - O Futuro do Campo</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        body {
-            background-color: #f4f7f4;
-            color: #2e3d29;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-
-        header {
-            background-color: #1b4332;
-            color: #ffffff;
-            padding: 25px 20px;
-            text-align: center;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 30px;
-            background: #ffffff;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-            text-align: center;
-        }
-
-        .banner-img {
-            width: 100%;
-            max-height: 380px;
-            object-fit: cover;
-            border-radius: 8px;
-            margin: 20px 0;
-        }
-
-        h1 {
-            font-size: 2.5rem;
-        }
-
-        h2 {
-            color: #1b4332;
-            margin-bottom: 15px;
-        }
-
-        p {
-            font-size: 1.1rem;
-            line-height: 1.6;
-            margin-bottom: 25px;
-            color: #4a5d43;
-        }
-
-        .btn {
-            display: inline-block;
-            padding: 12px 30px;
-            background-color: #2d6a4f;
-            color: white;
-            text-decoration: none;
-            font-size: 1rem;
-            font-weight: bold;
-            border-radius: 25px;
-            transition: background-color 0.3s ease, transform 0.2s ease;
-        }
-
-        .btn:hover {
-            background-color: #40916c;
-            transform: translateY(-2px);
-        }
-
-        footer {
-            margin-top: auto;
-            background-color: #1b4332;
-            color: white;
-            text-align: center;
-            padding: 15px;
-            font-size: 0.9rem;
-        }
-    </style>
+    <title>Salve uma Vida - Início</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>🌱 Agro Forte</h1>
+        <div class="nav-container">
+            <a href="index.html" class="logo">🐾 Salve um Amigo</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">A Realidade</a></li>
+                    <li><a href="como-ajudar.html">Como Ajudar</a></li>
+                    <li><a href="adocao.html">Adote um Amigo</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main class="container">
-        <h2>Inovação e Tecnologia no Campo</h2>
+        <h1>A Realidade dos Cães Abandonados</h1>
+        <p>Milhares de cachorros vivem nas ruas enfrentando fome, frio, maus-tratos e o desprezo diário. O abandono é um problema grave de saúde pública e de empatia animal.</p>
         
-        <img class="banner-img" src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1000&q=80" alt="Campo agrícola verde ao por do sol">
+        <img class="img-banner" src="https://images.unsplash.com/photo-1535930891776-0c2dfb7fda1a?auto=format&fit=crop&w=1000&q=80" alt="Cachorro resgatado e acolhido">
 
-        <p>
-            O agronegócio é o motor que impulsiona o nosso desenvolvimento. Unimos tecnologia, 
-            sustentabilidade e tradição para alimentar o mundo e fortalecer o futuro da nossa terra.
-        </p>
+        <p>A conscientização é o primeiro passo para mudar essa história. Quando promovemos a posse responsável e a castração, evitamos que milhares de filhotes venham ao mundo para sofrer.</p>
 
-        <a href="detalhes.html" class="btn">Conheça Nossos Produtos</a>
+        <div class="btn-group">
+            <a href="como-ajudar.html" class="btn">Saiba Como Ajudar</a>
+            <a href="adocao.html" class="btn btn-secondary">Conheça Cães para Adoção</a>
+        </div>
     </main>
 
     <footer>
-        <p>&copy; Agro Forte - Cultivando um futuro melhor.</p>
+        <p>&copy; Salve um Amigo - Juntos contra o abandono animal.</p>
     </footer>
 
 </body>
